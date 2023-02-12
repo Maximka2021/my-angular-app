@@ -1,3 +1,9 @@
-<div>
-    <app-person *ngFor="let person of people" [person]="person" (onDeletePerson)="deletePerson(person)"></app-person>
+<div class="people-container">
+  <app-person
+    *ngFor="let person of people"
+    [person]="person"
+    (onDeletePerson)="deletePerson(person)"
+    (onSetImportant)="changeImportant(person)"
+  >
+  </app-person>
 </div>

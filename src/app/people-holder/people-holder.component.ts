@@ -18,4 +18,9 @@ export class PeopleHolderComponent {
     this.fetchRequest.deletePerson(person).subscribe(() => this.people = this.people.filter(p => p.id !== person.id))
   }
 
+  changeImportant(person: People){
+    person.isImportant = !person.isImportant
+    this.fetchRequest.setImportant(person).subscribe()
+  }
+
 }

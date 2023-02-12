@@ -4,30 +4,28 @@
       "id": 1,
       "firstName": "Maxim",
       "lastName": "Polyakov",
+      "isImportant": true,
       "age": 18
     },
     {
       "id": 2,
       "firstName": "Angel",
       "lastName": "Marte",
+      "isImportant": true,
       "age": 19
     },
     {
       "id": 3,
       "firstName": "John",
       "lastName": "Dow",
+      "isImportant": true,
       "age": 23
     },
     {
       "id": 4,
       "firstName": "Anton",
       "lastName": "Polyakov",
-      "age": 39
-    },
-    {
-      "id": 5,
-      "firstName": "Josh",
-      "lastName": "Pas",
+      "isImportant": true,
       "age": 39
     }
   ]

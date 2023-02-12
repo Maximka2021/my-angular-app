@@ -1,4 +1,6 @@
 <div>
-    <p>{{person.firstName}} {{person.lastName}}</p>
+    <div class="name-holder" (click)="handleClick(person)">
+        <p class="name" [ngClass]="{ important: person.isImportant}">{{person.firstName}} {{person.lastName}}</p>
+    </div>
     <button (click)="onDelete(person)">Delete</button>
 </div>

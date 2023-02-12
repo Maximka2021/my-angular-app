@@ -9,9 +9,14 @@ import { People } from '../People';
 export class PersonComponent {
   @Input() person: People;
   @Output() onDeletePerson: EventEmitter<People> = new EventEmitter
+  @Output() onSetImportant: EventEmitter<People> = new EventEmitter
 
   onDelete(person: any){
     this.onDeletePerson.emit(person)
+  }
+
+  handleClick(person: any){
+    this.onSetImportant.emit(person)
   }
 
 }

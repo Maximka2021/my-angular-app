@@ -1,0 +1,14 @@
+.name{
+    color: white;
+}
+
+.name.important{
+    color: black
+}
+
+.name-holder{
+    width:auto;
+    height: auto;
+    margin: 1%;
+    background-color: green;
+}
